@@ -28,6 +28,7 @@ function createEmployeeRecords(arrayOfEmployeeRecords) {
         hour: parseInt(dateStampArray[1]),
         date: dateStampArray[0],
     });
+    console.log("HELLOOO!!!!!", dateStampArray[0]);
     return employeeRecord;
  }
 
